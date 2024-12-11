@@ -22,7 +22,7 @@ The **Threat Intelligence Bluesky Bot** is a fork of the [original Threat Intell
 Clone the repository or download the [latest release](https://github.com/JMousqueton/CTI-MSTeams-Bot/releases/latest)
 
 ```bash
-git clone https://github.com/JMousqueton/CTI-Bluesky-Bot
+git clone https://github.com/0xw01f/CTI-Bsky-Bot
 ```
 
 Install all the required dependencies from `requirements.txt`:
