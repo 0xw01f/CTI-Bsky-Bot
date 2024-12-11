@@ -46,14 +46,6 @@ BLUESKY_PASSWORD=your_password
 
 This file will be used to securely load your credentials when the bot runs.
 
-### On a server (Windows, macOS, Linux)
-
-Make sure to set the appropriate environment variables:
-
-```bash
-BLUESKY_USERNAME=your_username
-BLUESKY_PASSWORD=your_password
-```
 
 ---
 
