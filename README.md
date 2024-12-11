@@ -3,9 +3,9 @@
 
 The **Threat Intelligence Bluesky Bot** is a fork of the [original Threat Intelligence Teams Bot](https://github.com/JMousqueton/CTI-MSTeams-Bot) created by **Julien Mousqueton**. This bot now publishes threat intelligence updates on **Bluesky** instead of Microsoft Teams, and is designed to run periodically to check for new updates from various cybersecurity sources.
 
-> The bot fetches updates from various clearnet domains, ransomware threat actor domains, and other cybersecurity-related feeds. It checks for new updates every 3 hours and posts them on **Bluesky**.
+> The bot fetches updates from various clearnet domains, ransomware threat actor domains, and other cybersecurity-related feeds. It checks for new updates every 30 minutes and posts them on **Bluesky**.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)  
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)  
 
 ## Description
 
@@ -13,7 +13,7 @@ The **Threat Intelligence Bluesky Bot** is a fork of the [original Threat Intell
   - ⚠️ Requires Python 3.10+ for compatibility
 * Posts to **Bluesky**
 * Fetches updates from threat intelligence feeds (including clearnet domains, ransomware, and other cybersecurity sources)
-* Checks for updates every 3 hours (instead of every 30 minutes)
+* Checks for updates every 30 minutes
 
 ---
 

@@ -193,8 +193,8 @@ if __name__ == '__main__':
     FileConfig = ConfigParser()
     FileConfig.read(ConfigurationFilePath)
 
-    # Schedule the job to run every 3 hours
-    schedule.every(3).hours.do(check_feeds)
+    # Schedule the job to run every 30 minutes
+    schedule.every(30).minutes.do(check_feeds)
     
     # Run once immediately
     check_feeds()
